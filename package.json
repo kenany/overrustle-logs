@@ -18,8 +18,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/index.js",
-    "test-faucet": "faucet"
+    "test": "tape test/index.js"
   },
   "dependencies": {
     "capitalize": "^1.0.0",
@@ -29,7 +28,6 @@
     "url-join": "^0.0.1"
   },
   "devDependencies": {
-    "faucet": "^0.0.1",
     "is-plain-object": "^2.0.1",
     "is-string": "^1.0.4",
     "isstream": "^0.1.2",
