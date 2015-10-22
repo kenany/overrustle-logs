@@ -22,11 +22,11 @@ test('emits objects', function(t) {
       t.error(error);
     })
     .on('data', function(data) {
-      t.ok(isPlainObject(data));
-      t.ok(keys(data).length, 3);
-      t.ok(isString(data.timestamp));
-      t.ok(isString(data.user));
-      t.ok(isString(data.message));
+      t.ok(isPlainObject(data)
+        && keys(data).length === 3
+        && isString(data.timestamp)
+        && isString(data.user)
+        && isString(data.message));
     })
     .on('end', function() {
       t.end();
@@ -39,11 +39,11 @@ test('works with lowercase channel', function(t) {
       t.error(error);
     })
     .on('data', function(data) {
-      t.ok(isPlainObject(data));
-      t.ok(keys(data).length, 3);
-      t.ok(isString(data.timestamp));
-      t.ok(isString(data.user));
-      t.ok(isString(data.message));
+      t.ok(isPlainObject(data)
+        && keys(data).length === 3
+        && isString(data.timestamp)
+        && isString(data.user)
+        && isString(data.message));
     })
     .on('end', function() {
       t.end();
@@ -56,11 +56,11 @@ test('specific user', function(t) {
       t.error(error);
     })
     .on('data', function(data) {
-      t.ok(isPlainObject(data));
-      t.ok(keys(data).length, 3);
-      t.ok(isString(data.timestamp));
-      t.ok(isString(data.user));
-      t.ok(isString(data.message));
+      t.ok(isPlainObject(data)
+        && keys(data).length === 3
+        && isString(data.timestamp)
+        && isString(data.user)
+        && isString(data.message));
     })
     .on('end', function() {
       t.end();
