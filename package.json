@@ -1,0 +1,39 @@
+{
+  "name": "overrustle-logs",
+  "version": "0.0.0",
+  "description": "Streaming download of OverRustle logs",
+  "keywords": [
+    "destinygg",
+    "overrustle"
+  ],
+  "repository": "KenanY/overrustle-logs",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "capitalize": "^1.0.0",
+    "hyperquest": "^1.2.0",
+    "moment": "^2.10.6",
+    "split2": "^1.0.0",
+    "url-join": "^0.0.1"
+  },
+  "devDependencies": {
+    "is-plain-object": "^2.0.1",
+    "is-string": "^1.0.4",
+    "isstream": "^0.1.2",
+    "lodash.isfunction": "^3.0.6",
+    "ndjson": "^1.4.2",
+    "object-keys": "^1.0.9",
+    "tape": "^4.2.2"
+  }
+}
