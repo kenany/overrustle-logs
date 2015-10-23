@@ -69,7 +69,7 @@ Here is an example of an _Object_ that the stream with emit:
 
 ``` javascript
 {
-  timestamp: '2015-10-21T23:59:59-04:00',
+  timestamp: '2015-10-21T23:59:59.000Z',
   user: 'RustleBot',
   message: 'YEE'
 }

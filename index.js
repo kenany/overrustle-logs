@@ -12,7 +12,7 @@ function overrustle(opts) {
   var url = join(domain,
     encodeURIComponent(capitalize(opts.channel) + ' chatlog'));
 
-  var date = moment(opts.date);
+  var date = moment.utc(opts.date);
 
   // then go to a specific year-month
   url = join(url,
@@ -31,7 +31,7 @@ function overrustle(opts) {
   function parse(row) {
     // [2015-10-01 14:14:47 UTC] user: message
     return {
-      timestamp: moment(row.substring(1, 20), 'YYYY-MM-DD HH:mm:ss Z').format(),
+      timestamp: moment.utc(row.substring(1, 20)).toISOString(),
       user: row.substring(26, row.indexOf(': ')),
       message: row.substring(row.indexOf(': ') + 2)
     };
