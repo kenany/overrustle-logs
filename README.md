@@ -65,6 +65,16 @@ is an _Object_ whose properties should be:
   - `opts.user`: _String_ username of user you want to download logs of.
   This is optional.
 
+Here is an example of an _Object_ that the stream with emit:
+
+``` javascript
+{
+  timestamp: '2015-10-21T23:59:59-04:00',
+  user: 'RustleBot',
+  message: 'YEE'
+}
+```
+
    [travis]: https://travis-ci.org/KenanY/overrustle-logs
    [travis-svg]: https://img.shields.io/travis/KenanY/overrustle-logs.svg
    [gemnasium]: https://gemnasium.com/KenanY/overrustle-logs
