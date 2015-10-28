@@ -21,11 +21,10 @@
     "test": "tape test/index.js"
   },
   "dependencies": {
-    "capitalize": "^1.0.0",
     "hyperquest": "^1.2.0",
     "moment": "^2.10.6",
-    "split2": "^1.0.0",
-    "url-join": "^0.0.1"
+    "overrustle-logs-url": "^1.0.1",
+    "split2": "^1.0.0"
   },
   "devDependencies": {
     "is-plain-object": "^2.0.1",
