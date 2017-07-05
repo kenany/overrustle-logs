@@ -18,6 +18,8 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run -s lint",
     "test": "tape test/index.js"
   },
   "dependencies": {
@@ -27,6 +29,8 @@
     "split2": "^2.0.1"
   },
   "devDependencies": {
+    "@kenan/eslint-config": "^5.0.0",
+    "eslint": "^4.1.1",
     "is-plain-object": "^2.0.1",
     "is-string": "^1.0.4",
     "isstream": "^0.1.2",
