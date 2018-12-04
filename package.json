@@ -29,7 +29,7 @@
     "split2": "^3.0.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^5.0.0",
+    "@kenan/eslint-config": "^6.0.0",
     "eslint": "^4.1.1",
     "is-plain-object": "^2.0.1",
     "is-string": "^1.0.4",
