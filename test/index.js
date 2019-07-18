@@ -14,11 +14,11 @@ test('exports a function', function(t) {
 
 test('returns a readable stream', function(t) {
   t.plan(1);
-  t.ok(isReadable(logs({channel: 'Destinygg', date: '2015-10-21'})));
+  t.ok(isReadable(logs({ channel: 'Destinygg', date: '2015-10-21' })));
 });
 
 test('emits objects', function(t) {
-  logs({channel: 'Destinygg', date: '2015-10-21'})
+  logs({ channel: 'Destinygg', date: '2015-10-21' })
     .on('error', function(error) {
       t.error(error);
     })
@@ -38,7 +38,7 @@ test('emits objects', function(t) {
 });
 
 test('works with lowercase channel', function(t) {
-  logs({channel: 'destinygg', date: '2015-10-21'})
+  logs({ channel: 'destinygg', date: '2015-10-21' })
     .on('error', function(error) {
       t.error(error);
     })
@@ -58,7 +58,7 @@ test('works with lowercase channel', function(t) {
 });
 
 test('specific user', function(t) {
-  logs({channel: 'destinygg', date: '2015-10-21', user: 'sztanpet'})
+  logs({ channel: 'destinygg', date: '2015-10-21', user: 'sztanpet' })
     .on('error', function(error) {
       t.error(error);
     })

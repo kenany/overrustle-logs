@@ -29,8 +29,8 @@
     "split2": "^3.0.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^5.0.0",
-    "eslint": "^4.1.1",
+    "@kenan/eslint-config": "6.0.0",
+    "eslint": "5.16.0",
     "is-plain-object": "^2.0.1",
     "is-string": "^1.0.4",
     "isstream": "^0.1.2",
