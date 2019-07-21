@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@kenan/eslint-config": "6.0.0",
-    "eslint": "5.16.0",
+    "eslint": "6.1.0",
     "is-plain-object": "^2.0.1",
     "is-string": "^1.0.4",
     "isstream": "^0.1.2",
