@@ -1,4 +1,3 @@
-var logs = require('../');
 var test = require('tape');
 var isFunction = require('lodash.isfunction');
 var isReadable = require('isstream').isReadable;
@@ -6,6 +5,8 @@ var isPlainObject = require('is-plain-object');
 var keys = Object.keys || require('object-keys');
 var isString = require('is-string');
 var moment = require('moment');
+
+var logs = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);

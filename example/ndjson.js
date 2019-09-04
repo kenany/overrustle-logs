@@ -1,5 +1,6 @@
-var logs = require('../');
 var ndjson = require('ndjson');
+
+var logs = require('../');
 
 logs({
   channel: 'Destinygg',
