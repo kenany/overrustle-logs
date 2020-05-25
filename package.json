@@ -38,6 +38,6 @@
     "lodash.isfunction": "3.0.9",
     "ndjson": "1.5.0",
     "object-keys": "1.1.1",
-    "tape": "4.13.2"
+    "tape": "4.13.3"
   }
 }
