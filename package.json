@@ -23,7 +23,7 @@
     "test": "tape test/index.js"
   },
   "dependencies": {
-    "hyperquest": "^2.0.0",
+    "hyperquest": "^2.1.3",
     "moment": "^2.10.6",
     "overrustle-logs-url": "^2.0.0",
     "split2": "^3.0.0"
